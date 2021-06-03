@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #524f4b; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b0b0ac; 
+  }
+
+header {
+    background-color: black;
+}
+
+.nav-pills .activeMe {
+    background-color: white;
+    border-radius: 2px;
+}
+
+.hero {
+    background-color: #737373;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.left-hero h1 {
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.left-hero h2 {
+    margin-top: -30px;
+    margin-left: 208px;
+}
+
+.imgOfMe {
+    color: white;
+    font-size: 600px;
+    float: right;
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+
+.spacer {
+    height: 730px;
+    width: 100%;
+}
+
+.project-holder {
+    border: 5px solid white;
+    height: 500px;
+    width: 1700px;
+    padding: 50px;
+    z-index: 1;
+    margin-top: 40px;
+    padding-top: 100px;
+}
+
+.html-based{
+    border: 5px solid #807d7d;
+    height: 100%;
+    width: 48%;
+    display: inline-block   ;
+}
+
+.js-based {
+    border: 5px solid #805454;
+    height: 100%;
+    width: 48%;
+    display: inline-block;
+}
+
+.legendry {
+    position: absolute;
+    margin-top: -0px;
+    background-color: black;
+    z-index: 2;
+    width: 300px;
+    font-size: 50px;
+    height: 40px;
+    margin-left: -800px;
+}
+
+.legendry2 {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -20px;
+    background-color: black;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1734px){
+    .imgOfMe {
+        margin-left: 1000px;
+        display: block;
+    }
+}
+
+@media all and (max-width: 1532px){
+    .imgOfMe {
+        margin-left: 700px;
+        display: block;
+    }
+}
+
+@media all and (max-width: 1234px){
+    .imgOfMe {margin-left: 300px; margin-top: 0px; display: block;}
+    .hero {height: 800px;}
+    .spacer {height: 800px;}
+    .left-hero {margin-left: 200px; }
+}
+
+@media all and (max-width: 360px){
+    .imgOfMe {display: none;}
+    .hero {height: 1000px;}
+    .spacer {height: 1000px;}
+    .left-hero h2 {display: none;}
+    header {display: none; margin-top: -1000px;}
+}
